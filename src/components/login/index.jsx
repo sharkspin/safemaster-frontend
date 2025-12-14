@@ -23,7 +23,7 @@ const Login = () => {
 
     $.ajax({
       type: 'POST',
-      url: 'http://127.0.0.1:5000/signin',
+      url: 'https://safemaster-backend.onrender.com/signin',
       data: {
         username,
         password,

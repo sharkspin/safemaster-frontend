@@ -43,7 +43,7 @@ const Quiz = () => {
 
       $.ajax({
         type: 'POST',
-        url: 'http://127.0.0.1:5000/result',
+        url: 'https://safemaster-backend.onrender.com/result',
         data: {
           usernameStore,
           finalScore,
